@@ -1,7 +1,7 @@
 
 public class Gagné {
 	
-	int[][] Grille;
+	int[][] grille;
 	
 	private boolean cherche4(int oCol, int oLigne, int dCol, int dLigne) {
 	    
@@ -12,9 +12,9 @@ public class Gagné {
 
 	    while ((curCol >= 0) && (curCol < 7) && (curLig >= 0) && (curLig < 6)) {
 	      
-	    	if (Grille[curLig][curCol] != couleur) {
+	    	if (grille[curLig][curCol] != couleur) {
 	        
-	    	  couleur = Grille[curLig][curCol];
+	    	  couleur = grille[curLig][curCol];
 	    	  compteur = 1;
 	      
 	    	} else {
