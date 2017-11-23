@@ -4,7 +4,7 @@ public class Affiche {
 	public static void Affiche(int[][] grille) {
 
 		for(int[] ligne : grille) {
-
+jhgngkjhngh
 			System.out.print(" |") ;
 
 			for(int cellule : ligne) {
