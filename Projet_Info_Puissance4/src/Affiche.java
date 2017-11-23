@@ -1,6 +1,6 @@
 
 public class Affiche {
-	
+	// Github c'est de la merde
 	public static void Affiche(int[][] grille) {
 
 		for(int[] ligne : grille) {
