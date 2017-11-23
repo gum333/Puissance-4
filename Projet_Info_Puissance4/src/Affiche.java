@@ -1,7 +1,5 @@
 
 public class Affiche {
-
-	
 	
 	public static void Affiche(int[][] grille) {
 
